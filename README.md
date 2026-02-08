@@ -1,25 +1,28 @@
 # Chrome PiP Extension
 
-Extensão simples para alternar o modo **Picture-in-Picture (PiP)** em vídeos de qualquer página web.  
-Permite ativar ou desativar o PiP rapidamente via ícone da extensão ou atalho de teclado configurado no Chrome.
+Ativa/desativa o modo **Picture-in-Picture (PiP)** em vídeos de qualquer página web via ícone da extensão ou atalho de teclado. Feito para estudo ou quem quer explorar **Chrome Extensions (Manifest V3)**.
 
-Ideal como projeto de estudo ou para quem deseja explorar a criação de **Chrome Extensions (Manifest V3)** e interação com APIs de navegador.
+## Instalação
 
----
-
-## Pré-requisitos
-
-- Google Chrome (ou Chromium) atualizado
-- Conhecimento básico de como carregar extensões em modo desenvolvedor
-- (Opcional) Git para clonar o repositório
-
----
-
-## Como rodar localmente
-
-Siga os passos abaixo para testar a extensão no seu navegador:
-
-1. **Clonar o repositório** ou baixar o código como ZIP:
-
+1. Clone o repositório ou baixe o ZIP:
 ```bash
-git clone https://github.com/seu-usuario/chrome-pip-extension.git
+git clone https://github.com/lsants/chrome-pip-extension.git
+```
+
+2. No Chrome, abra chrome://extensions/
+
+3. Ative Modo de Desenvolvedor
+
+4. Clique em Carregar sem compactação e selecione a pasta do projeto
+
+5. A extensão aparecerá no navegador
+
+## Uso
+
+Abra qualquer vídeo (YouTube, Vimeo, etc.)
+
+Clique no ícone da extensão ou use o atalho
+
+O vídeo entra em Picture-in-Picture
+
+Clique novamente para sair do PiP
