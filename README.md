@@ -6,4 +6,4 @@ Extensão simples para alternar o modo Picture-in-Picture em páginas com vídeo
 
 1. Clone o repositório ou baixe o código:
    ```bash
-   git clone https://github.com/seu-usuario/chrome-pip-extension.git
+   git clone https://github.com/lsants/chrome-pip-extension.git
