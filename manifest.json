@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Picture-in-Picture Plus",
+  "version": "1.2",
+  "description": "Ativa Picture-in-Picture no YouTube",
+  "host_permissions": ["https://www.youtube.com/*"],
+  "permissions": ["scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Ativar PiP"
+  },
+  "commands": {
+    "toggle-pip": {
+      "suggested_key": {
+        "default": "Alt+Shift+P"
+      },
+      "description": "Ativar Picture-in-Picture"
+    }
+  }
+}
