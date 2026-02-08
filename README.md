@@ -17,6 +17,8 @@ git clone https://github.com/lsants/chrome-pip-extension.git
 
 5. A extensão aparecerá no navegador
 
+OBS: Troque a tecla de atalho para ativação, conforme preferência, através do link chrome://extensions/shortcuts
+
 ## Uso
 
 Abra qualquer vídeo (YouTube, Vimeo, etc.)
